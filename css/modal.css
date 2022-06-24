@@ -302,6 +302,7 @@ input[data-error]::after {
   top: 15px;
   width: 32px;
   height: 32px;
+  
   opacity: 1;
   cursor: pointer;
   transform: scale(0.7);
@@ -527,3 +528,12 @@ footer {
   }
 }
 
+@keyframes modalclose {
+  from {
+    opacity: 1;
+    transform: translateX(-150px);
+  }
+  to {
+    opacity: 0;
+  }
+}
